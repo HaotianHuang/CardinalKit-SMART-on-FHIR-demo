@@ -2,6 +2,7 @@ import { Container, Row, Spinner } from 'react-bootstrap';
 import logo from '../images/cardinalkit_logo.png';
 
 const Loading = () => {
+    console.log("Loading");
     return (
     <Container>
         <Row>

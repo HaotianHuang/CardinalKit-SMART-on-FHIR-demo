@@ -5,6 +5,7 @@ import Home from "./Home";
 import Splash from "./Splash";
 
 export default function App() {
+    console.log("App");
     return (
         <BrowserRouter>
             <Route path="/app" component={Home} />

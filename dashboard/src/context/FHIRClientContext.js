@@ -8,6 +8,8 @@ export const useFHIRClient = () => useContext(FHIRClientContext);
 
 export const FHIRClientProvider = ({ children }) => {
 
+    console.log("FHIRClientProvider");
+
     const [client, setClient] = useState(null);
 
     useEffect(() => {

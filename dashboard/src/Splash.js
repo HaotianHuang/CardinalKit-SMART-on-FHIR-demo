@@ -1,6 +1,7 @@
 import logo from './images/cardinalkit_logo.png';
 
 export default function Splash() {
+    console.log("Splash");
     return (
         <div>
             <div className="mx-auto mt-5 mb-5 text-center">

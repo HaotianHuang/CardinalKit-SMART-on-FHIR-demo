@@ -4,6 +4,7 @@ import { UserProvider } from './context/UserContext';
 import Dashboard from './components/Dashboard';
 
 const Home = () => {
+  console.log("Home");
   return (
     <FHIRClientProvider>
       <UserProvider>

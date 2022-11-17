@@ -3,6 +3,7 @@ import FHIR from "fhirclient";
 import Loading from './components/Loading';
 
 export default function Launcher() {
+    console.log("Launcher");
     useEffect(() => {
         FHIR.oauth2.authorize({
             clientId: process.env.REACT_APP_SMART_CLIENTID,
@@ -12,6 +13,5 @@ export default function Launcher() {
             completeInTarget: true
         });
     }, []);
-
     return <Loading />;
 };

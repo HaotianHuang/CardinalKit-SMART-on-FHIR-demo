@@ -10,6 +10,8 @@ export const UserProvider = ({ children }) => {
     const fhirClient = useFHIRClient();
     const [user, setUser] = useState(null);
 
+    console.log("UserProvider");
+
     useEffect(() => {
         
         // get the current user resource from the FHIR server

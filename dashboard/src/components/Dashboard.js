@@ -3,6 +3,7 @@ import Footer from './Footer';
 import Hypertension from './hypertension/Hypertension';
 
 const Dashboard = () => {
+    console.log("Dashboard");
     return (
         <>
             <Header />

@@ -8,6 +8,8 @@ export const usePatient = () => useContext(PatientContext);
 
 export const PatientProvider = ({ children }) => {
 
+    console.log("PatientProvider");
+
     const fhirClient = useFHIRClient();
     const [patient, setPatient] = useState(null);
 
