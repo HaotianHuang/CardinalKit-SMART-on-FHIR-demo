@@ -1,3 +1,5 @@
+Note: Chose not to fork directly from <a href="https://github.com/CardinalKit/CardinalKit-SMART-on-FHIR">origin</a> because changes made are not substantial. 
+
 ![CardinalKit Logo](https://raw.githubusercontent.com/CardinalKit/.github/main/assets/ck-header-light.png#gh-light-mode-only)
 ![CardinalKit Logo](https://raw.githubusercontent.com/CardinalKit/.github/main/assets/ck-header-dark.png#gh-dark-mode-only)
 
